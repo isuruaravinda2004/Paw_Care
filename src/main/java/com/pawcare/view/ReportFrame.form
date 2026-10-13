@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3" />
+    <Property name="title" type="java.lang.String" value="PawCare | Reports" />
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1" />
+    <SyntheticProperty name="generateCenter" type="boolean" value="false" />
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0" />
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false" />
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true" />
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false" />
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false" />
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1" />
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0" />
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false" />
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2" />
+  </AuxValues>
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" />
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="pnlSidebar">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="pnlSidebar" />
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+          <BorderConstraints direction="West" />
+        </Constraint>
+      </Constraints>
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout">
+        <Property name="hgap" type="int" value="10" />
+        <Property name="vgap" type="int" value="10" />
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="pnlBrand">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="pnlBrand" />
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+              <BorderConstraints direction="North" />
+            </Constraint>
+          </Constraints>
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridLayout">
+            <Property name="rows" type="int" value="0" />
+            <Property name="columns" type="int" value="1" />
+            <Property name="hgap" type="int" value="12" />
+            <Property name="vgap" type="int" value="12" />
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="lblBrand">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="PawCare" />
+                <Property name="name" type="java.lang.String" value="lblBrand" />
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblTagline">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Care for every pet" />
+                <Property name="name" type="java.lang.String" value="lblTagline" />
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="pnlMenu">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="pnlMenu" />
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+              <BorderConstraints direction="Center" />
+            </Constraint>
+          </Constraints>
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridLayout">
+            <Property name="rows" type="int" value="9" />
+            <Property name="columns" type="int" value="1" />
+            <Property name="hgap" type="int" value="0" />
+            <Property name="vgap" type="int" value="7" />
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="btnNavDashboard">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Dashboard" />
+                <Property name="name" type="java.lang.String" value="btnNavDashboard" />
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnNavCustomers">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Customers" />
+                <Property name="name" type="java.lang.String" value="btnNavCustomers" />
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnNavPets">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Pets" />
+                <Property name="name" type="java.lang.String" value="btnNavPets" />
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnNavServices">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Services" />
+                <Property name="name" type="java.lang.String" value="btnNavServices" />
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnNavAppointments">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Appointments" />
+                <Property name="name" type="java.lang.String" value="btnNavAppointments" />
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnNavPayments">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Payments" />
+                <Property name="name" type="java.lang.String" value="btnNavPayments" />
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnNavReports">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Reports" />
+                <Property name="name" type="java.lang.String" value="btnNavReports" />
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnNavBreed">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Breed lookup" />
+                <Property name="name" type="java.lang.String" value="btnNavBreed" />
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnNavLogout">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Logout" />
+                <Property name="name" type="java.lang.String" value="btnNavLogout" />
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="pnlContent">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="pnlContent" />
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+          <BorderConstraints direction="Center" />
+        </Constraint>
+      </Constraints>
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout">
+        <Property name="hgap" type="int" value="10" />
+        <Property name="vgap" type="int" value="10" />
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="pnlHeader">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="pnlHeader" />
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+              <BorderConstraints direction="North" />
+            </Constraint>
+          </Constraints>
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridLayout">
+            <Property name="rows" type="int" value="0" />
+            <Property name="columns" type="int" value="1" />
+            <Property name="hgap" type="int" value="12" />
+            <Property name="vgap" type="int" value="12" />
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="lblEyebrow">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="PAWCARE / GROOMING CENTER" />
+                <Property name="name" type="java.lang.String" value="lblEyebrow" />
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblTitle">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Reports" />
+                <Property name="name" type="java.lang.String" value="lblTitle" />
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblSubtitle">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="A clear view of visits and revenue." />
+                <Property name="name" type="java.lang.String" value="lblSubtitle" />
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="pnlBodyWrap">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="pnlBodyWrap" />
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+              <BorderConstraints direction="Center" />
+            </Constraint>
+          </Constraints>
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout">
+            <Property name="hgap" type="int" value="10" />
+            <Property name="vgap" type="int" value="10" />
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="pnlReportBody">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="pnlReportBody" />
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+                  <BorderConstraints direction="North" />
+                </Constraint>
+              </Constraints>
+              <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridLayout">
+                <Property name="rows" type="int" value="0" />
+                <Property name="columns" type="int" value="1" />
+                <Property name="hgap" type="int" value="12" />
+                <Property name="vgap" type="int" value="12" />
+              </Layout>
+              <SubComponents>
+                <Container class="javax.swing.JPanel" name="pnlForm">
+                  <Properties>
+                    <Property name="name" type="java.lang.String" value="pnlForm" />
+                  </Properties>
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridLayout">
+                    <Property name="rows" type="int" value="0" />
+                    <Property name="columns" type="int" value="2" />
+                    <Property name="hgap" type="int" value="12" />
+                    <Property name="vgap" type="int" value="12" />
+                  </Layout>
+                  <SubComponents>
+                    <Container class="javax.swing.JPanel" name="pnlFieldtxtFromDate">
+                      <Properties>
+                        <Property name="name" type="java.lang.String" value="pnlFieldtxtFromDate" />
+                      </Properties>
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout">
+                        <Property name="hgap" type="int" value="10" />
+                        <Property name="vgap" type="int" value="10" />
+                      </Layout>
+                      <SubComponents>
+                        <Component class="javax.swing.JLabel" name="lblFieldFromDate">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="From date (YYYY-MM-DD)" />
+                            <Property name="name" type="java.lang.String" value="lblFieldFromDate" />
+                          </Properties>
+                          <Constraints>
+                            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+                              <BorderConstraints direction="North" />
+                            </Constraint>
+                          </Constraints>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="txtFromDate">
+                          <Properties>
+                            <Property name="columns" type="int" value="18" />
+                            <Property name="editable" type="boolean" value="true" />
+                            <Property name="name" type="java.lang.String" value="txtFromDate" />
+                          </Properties>
+                          <Constraints>
+                            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+                              <BorderConstraints direction="Center" />
+                            </Constraint>
+                          </Constraints>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Container class="javax.swing.JPanel" name="pnlFieldtxtToDate">
+                      <Properties>
+                        <Property name="name" type="java.lang.String" value="pnlFieldtxtToDate" />
+                      </Properties>
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout">
+                        <Property name="hgap" type="int" value="10" />
+                        <Property name="vgap" type="int" value="10" />
+                      </Layout>
+                      <SubComponents>
+                        <Component class="javax.swing.JLabel" name="lblFieldToDate">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="To date (YYYY-MM-DD)" />
+                            <Property name="name" type="java.lang.String" value="lblFieldToDate" />
+                          </Properties>
+                          <Constraints>
+                            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+                              <BorderConstraints direction="North" />
+                            </Constraint>
+                          </Constraints>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="txtToDate">
+                          <Properties>
+                            <Property name="columns" type="int" value="18" />
+                            <Property name="editable" type="boolean" value="true" />
+                            <Property name="name" type="java.lang.String" value="txtToDate" />
+                          </Properties>
+                          <Constraints>
+                            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+                              <BorderConstraints direction="Center" />
+                            </Constraint>
+                          </Constraints>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                  </SubComponents>
+                </Container>
+                <Component class="javax.swing.JLabel" name="lblDescription">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Preview appointments or payments for a date range. Print or save the result as a PDF." />
+                    <Property name="name" type="java.lang.String" value="lblDescription" />
+                  </Properties>
+                </Component>
+                <Container class="javax.swing.JPanel" name="pnlActions">
+                  <Properties>
+                    <Property name="name" type="java.lang.String" value="pnlActions" />
+                  </Properties>
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignFlowLayout">
+                    <Property name="alignment" type="int" value="0" />
+                    <Property name="hgap" type="int" value="7" />
+                    <Property name="vgap" type="int" value="7" />
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JButton" name="btnGenerateAppointments">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Appointment report" />
+                        <Property name="name" type="java.lang.String" value="btnGenerateAppointments" />
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="btnGeneratePayments">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Payment report" />
+                        <Property name="name" type="java.lang.String" value="btnGeneratePayments" />
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="btnExport">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Save last report as PDF" />
+                        <Property name="name" type="java.lang.String" value="btnExport" />
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="btnBack">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Back to Dashboard" />
+                        <Property name="name" type="java.lang.String" value="btnBack" />
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="lblStatus">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Choose a date range to get started." />
+            <Property name="name" type="java.lang.String" value="lblStatus" />
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+              <BorderConstraints direction="South" />
+            </Constraint>
+          </Constraints>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

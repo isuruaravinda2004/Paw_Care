@@ -1,0 +1,8 @@
+/target/
+/dist/
+/config.properties
+*.log
+nbproject/private/
+.DS_Store
+.idea/
+*.iml
