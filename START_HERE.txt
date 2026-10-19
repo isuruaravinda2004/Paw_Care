@@ -1,0 +1,49 @@
+PAWCARE — START HERE
+====================
+This is a Java Swing desktop application for NetBeans, with MySQL/MariaDB.
+
+WINDOWS — RUN THE FINISHED APPLICATION
+1. Extract the whole ZIP. Do not run files from inside the compressed folder.
+2. Install a JDK version 17 or newer. In Command Prompt, run: java -version
+3. Start MySQL in XAMPP (or start your standalone MySQL/MariaDB server).
+4. In phpMyAdmin, open Import, select PawCare/database.sql and click Import.
+   For Workbench: open database.sql, then execute the script.
+   Use a new database for this fresh-install script. It intentionally has no DROP commands.
+5. Open PawCare/config.example.properties. Copy it as config.properties.
+   The example uses localhost:3306, database pet_grooming_db, user root, blank password.
+   Change these values if your installation uses another port or password.
+6. Double-click PawCare/run.bat.
+7. Sign in:
+       Username: admin
+       Password: PawCare@123
+8. Use Dashboard > Change password after your first successful sign-in.
+
+OPEN AND EDIT IN NETBEANS
+1. File > Open Project.
+2. Select the PawCare folder containing pom.xml.
+3. Allow Maven to download dependencies (internet needed for the first build).
+4. Use JDK 17 or newer for the project. Right-click project > Clean and Build.
+5. Run Project (F6). Main class: com.pawcare.Main.
+6. In Source Packages > com.pawcare.view, open CustomerFrame.java and click Design.
+   Every screen has a matching .form file. Keep .java and .form together.
+7. Read docs/LEARNING_GUIDE.md for all 24 phases and exact component names.
+
+TRY THIS FLOW
+Customers > Add owner > Pets > Add pet for that owner > Services > Check prices >
+Appointments > Choose owner, pet, service and future time > Book appointment >
+Payments > Choose appointment > Make payment > Select payment > Print receipt >
+Dashboard > Check revenue > Reports > Generate a date-range report.
+
+CONTENTS
+- src/: complete Java source and 9 NetBeans .form files
+- dist/PawCare.jar: runnable application with runtime libraries included
+- database.sql: schema, relationships and demo data
+- config.example.properties: connection settings
+- docs/: beginner guide, architecture, component inventory, test results and submission notes
+- PawCare-history.bundle (beside this folder): generated Git history and feature branches
+
+IMPORTANT
+Java and MySQL are separate prerequisites; neither is bundled into the JAR.
+Core operations need the database. Only Breed lookup requires the Dog CEO website.
+GitHub publishing has not been done: use your account and the instructions in docs/GITHUB.md.
+The app records cash/card/bank-transfer methods; it does not charge a real bank card.
